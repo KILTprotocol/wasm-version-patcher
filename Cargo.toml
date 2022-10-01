@@ -1,0 +1,14 @@
+[package]
+authors = ["weichweich <14820950+weichweich@users.noreply.github.com>"]
+edition = "2021"
+name = "substorage"
+version = "0.1.0"
+
+[dependencies]
+clap = {version = "4.0.6", features = ["derive"]}
+hex = "0.4.3"
+hex-literal = "0.3.4"
+sc-executor = {git = "https://github.com/paritytech/substrate"}
+sc-executor-common = {git = "https://github.com/paritytech/substrate"}
+sp-maybe-compressed-blob = {git = "https://github.com/paritytech/substrate"}
+sp-version = {git = "https://github.com/paritytech/substrate"}
